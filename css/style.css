@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+body{
+    font-family: "Noto Serif TC";
+    font-size: 1.3vw;
+    margin: 0;
+    padding: 0;
+    background-image: url(papel.jpg);
+    background-size: 20em;
+}
+.frame{
+    transform: translateX(-50%);
+    width: 800px;
+    height: 520px;
+    -moz-transform: scale(0.5);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.5);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.5);
+    -webkit-transform-origin: 0 0;
+    display: none;
+    box-shadow: 0 0 0.4em #000000;
+    border: solid #888888 0.4em;
+    text-shadow: 0 0 0.15em #000000, 0 0 0.25em #000000;
+}
+.indice{
+    font-size: 1.1vw;
+    text-align: center;
+    top: 40vh;
+    left: -15.5em;
+    position: fixed;
+    height: 6em;
+    padding: 0 1em 0 1em;
+    width: 13.5em;
+    color: #222222;
+    background-color: #e8e095;
+    border-right: solid #f0e89c 2.25em;
+    border-radius: 0 1em 1em 0;
+    text-shadow: 0em 0em 0.1em #ffffff, 0.05em 0.05em 0.05em #888888;
+    box-shadow: 0 0 0.75em #888888;
+}
+#indice-titulo{
+    float: right;
+    margin: 1em -2.5em 0 0;
+    writing-mode: vertical-rl;
+}
+#indice-links{
+    margin-top: 1.5em;
+}
+.indice a{
+    text-decoration: none;
+}
+.titulo{
+    font-family: "Special Elite";
+    font-size: 1.7vw;
+    text-align: center;
+    height: 10em;
+    padding-top: 2.5em;
+    text-shadow: 0.1em 0.1em 0.2em #888888;
+}
+.sobre{
+    max-width: 45em;
+    margin: auto;
+    color: #222222;
+}
+#sobre-titulo{
+    font-size: 1.3vw;
+    width: 12.5em;
+    margin-left: 2em;
+    height: 0;
+    padding: 0.1em 0 0.75em 2em;
+    text-shadow: 0.1em 0.1em 0.15em #888888;
+    border-right: 3em solid transparent;
+    border-bottom: 3.5em solid #f0e89c;
+}
+#sobre-corpo{
+    margin: 0 2em 0 2em;
+    display: inline-block;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+    background-color: #e8e095;
+    background-image: url(papel2.jpg);
+    text-shadow: 0.1em 0.1em 0.3em #888888;
+    border-radius: 0 1em 1em 1em;
+    border: outset #f0e89c 0.25em;
+    box-shadow: 0.3em 0.3em 0.5em #333333;
+}
+#sobre-img{
+    float: left;
+    border: dashed #333333 0.2em;
+}
+#sobre-par{
+    text-align: right;
+    max-width: 80vw;
+}
+.trabalho{
+    text-align: center;
+    margin-top: 5em;
+    padding: 5em 0 5em 0;
+    color: #ffffff;
+    background-image: url(trabalho.jpg);
+    background-size: cover;
+    background-position: center top;
+    text-shadow: 0.1em 0.1em 0.1em #333333, 0 0 0.3em #111111;
+    box-shadow: 0 0 1em #333333;
+}
+#trabalho-par{
+    margin: auto;
+    margin-top: 1em;
+    width: 20em;
+    padding: 0.5em;
+    background-color: #cfcea5;
+    border: dotted #ffffff 0.15em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1.5em #333333;
+}
+.trabalho h2{
+    margin: auto;
+    width: 14em;
+    background-color: #cfcea5;
+    border: dotted #ffffff 0.1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1.5em #333333;
+}
+.hobbies{
+    margin-top: 2em;
+    box-shadow: 0 0.3em 1em #333333;
+}
+.hobbies h2{
+    text-align: center;
+    margin: 2em 0 2em 0;
+    padding: 3em 0 3em 0;
+    color: #f7ed23;
+    background-image: url(hobbies.jpg);
+    background-size: cover;
+    background-position: bottom;
+    text-shadow: 0 0 0.2em #000000;
+    box-shadow: 0 0 1em #333333;
+}
+.hobbies h3{
+    text-decoration: underline;
+}
+#hobbies-fotografia{
+    text-align: right;
+    padding: 1em 0 1em 0;
+    color: #f4f5cb;
+    background-image: url(fotografia.jpg);
+    background-repeat: round;
+    background-size: contain;
+    text-shadow: 0.1em 0.1em 0.1em #000000, 0 0 0.25em #000000;
+    box-shadow: 0 0 1em #333333;
+}
+#fotografia-par{
+    width: 25em;
+    margin-left: auto;
+    margin-right: 2em;
+}
+#fotografia-img{
+    max-width: 55em;
+    margin-left: auto;
+    margin-right: 2em;
+}
+.fotografia h3{
+    margin-right: 2em;
+}
+.fotografia img{
+    box-shadow: 0 0 0.4em #000000;
+    border: dashed #f4f5cb 0.25em;
+}
+#hobbies-literatura{
+    text-align: left;
+    padding: 1em 0 1em 0;
+    background-image: url(literatura.jpg);
+    background-size: cover;
+    color: #fcfceb;
+    text-shadow: 0.1em 0.1em 0.1em #000000, 0 0 0.25em #000000;
+    box-shadow: inset 0 0 1em #333333;
+}
+#literatura-par{
+    width: 25em;
+    margin-left: 2em;
+    margin-right: auto;
+}
+#literatura-img{
+    margin-left: 2em;
+}
+.literatura h3{
+    margin-left: 2em;
+}
+.literatura img{
+    box-shadow: 0 0 0.4em #000000;
+    border: solid #aaad53 0.2em;
+    border-radius: 0.5em;
+    text-shadow: 0 0 0.15em #000000, 0 0 0.25em #000000;
+}
+#hobbies-musica{
+    text-align: right;
+    padding: 1em 0 1em 0;
+    background-image: url(musica.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #c6d433;
+    text-shadow: 0.1em 0.1em 0.1em #000000, 0 0 0.25em #000000;
+}
+#musica-par{
+    width: 25em;
+    margin-left: auto;
+    margin-right: 2em;
+}
+#musica-yt{
+    width: 25em;
+    margin-left: auto;
+    margin-right: 2em;
+}
+.musica h3{
+    margin-right: 2em;
+}
+.musica iframe{
+    border: groove #6ea868 0.2em;
+    box-shadow: 0 0 0.4em #000000;
+}
+#hobbies-games{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    background-image: url(games.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #ff945e;
+    text-shadow: 0.1em 0.1em 0.1em #000000, 0 0 0.25em #000000;
+    box-shadow: inset 0 0 1em #333333;
+}
+#games-par{
+    width: 25em;
+    margin: auto;
+}
+.games img{
+    border: double #ff945e 0.2em;
+    border-radius: 1em;
+}
+#hobbies-filmes{
+    text-align: left;
+    padding: 1em 0 1em 0;
+    background-image: url(filmes.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #d4a179;
+    text-shadow: 0.1em 0.1em 0.1em #000000, 0 0 0.25em #000000;
+}
+#filmes-par{
+    width: 25em;
+    margin-left: 2em;
+    margin-right: auto;
+}
+#filmes-yt{
+    width: 25em;
+    margin-left: 2em;
+    margin-right: auto;
+}
+.filmes h3{
+    text-align: left;
+    margin-left: 2em;
+}
+.filmes iframe{
+    border: dashed #8c6a50 0.3em;
+    box-shadow: 0 0 0.4em #000000;
+}
+.social{
+    text-align: center;
+    margin-top: 2em;
+    padding: 5em 0 5em 0;
+    color: #000000;
+    background-image: url(social.jpg);
+    background-size: cover;
+    text-shadow: 0.1em 0.1em 0.2em #888888;
+    box-shadow: 0 0 1em #333333;
+}
+#social-par{
+    margin: auto;
+    margin-top: 1em;
+    width: 20em;
+    padding: 0.5em;
+    background-color: #72b1d6;
+    border: dotted #ffffff 0.15em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1.5em #333333;
+}
+.social h2{
+    margin: auto;
+    width: 14em;
+    background-color: #72b1d6;
+    border: dotted #ffffff 0.1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1.5em #333333;
+}
+.contato{
+    font-family: "Special Elite";
+    text-align: center;
+    padding: 1em 0 1em 0;
+    color: #000000;
+    text-shadow: 0.1em 0.1em 0.2em #888888;
+}
+@media (orientation: portrait){
+    body{
+        font-size: 2.8vw;
+    }
+    .indice{
+        font-size: 2.3vw;
+    }
+    .titulo{
+        font-size: 3.2vw;
+    }
+    #sobre-titulo{
+        font-size: 2vw;
+        margin-left: 2.8em;
+    }
+}
