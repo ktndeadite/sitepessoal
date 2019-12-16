@@ -1,14 +1,14 @@
 //slide do indice
 $(document).ready(function(){
     $("#sp-indice").mouseenter(function() {
-        $(this).animate({
+        $(this).stop().animate({
             left: 0,
             }, 350, function() {
             });
     });
     
     $("#sp-indice").mouseleave(function() {
-        $(this).animate({
+        $(this).stop().animate({
             left: "-15.5em",
             }, 350, function() {
             });
